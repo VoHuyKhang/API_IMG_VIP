@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>api-img</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/style.css" rel="stylesheet" media="screen">
+    <link href="./css/mobile-style.css" rel="stylesheet" media="screen">
+    <link rel="shortcut icon" href="./favicon.png">
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .image-item {
+            width: 23%;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+        }
+
+        .image-item img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .image-item input {
+            width: 100%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="title">
+        <a href="">
+            <h1>UPDATE ẢNH ONLINE</h1>
+        </a>
+    </div>
+    <div class="dropzone">
+        <div class="info"></div>
+    </div>
+    <div class="image-container"></div>
+    <script type="text/javascript" src="./js/imgur.js"></script>
+    <script type="text/javascript" src="./js/upload.js"></script>
+</body>
+
+</html>
